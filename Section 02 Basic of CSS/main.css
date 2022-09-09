@@ -1,0 +1,17 @@
+body {
+  font-family: serif;
+}
+
+#product-overview {
+  background: red;
+}
+
+#product-overview h1 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.section-title {
+  color: #2ddf5c;
+  /* font-family: inherit; */
+}
