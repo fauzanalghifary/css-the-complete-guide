@@ -2,11 +2,21 @@ main {
   padding-top: 32px;
 }
 
+.background {
+  background: url("../plans-background.jpg");
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
 .package {
   width: 80%;
   margin: 16px 0;
   border: 4px solid #0e4f1f;
   border-left: none;
+  position: relative;
+  z-index: 0;
 }
 
 .package:hover,
@@ -20,6 +30,18 @@ main {
   color: inherit;
   display: block;
   padding: 32px;
+}
+
+.package__badge {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 20px;
+  font-size: 12px;
+  background-color: #ff5454;
+  color: white;
+  padding: 8px;
+  z-index: 10;
 }
 
 .package__subtitle {
